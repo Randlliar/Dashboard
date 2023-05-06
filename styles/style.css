@@ -265,6 +265,7 @@ body {
   line-height: 48px;
   color: #4F4E4F;
   margin: 20px 0 20px 40px;
+  cursor: default;
 }
 
 .main-content-items {
@@ -304,6 +305,7 @@ body {
   line-height: 25px;
   color: #4F4E4F;
   margin-bottom: 8px;
+  cursor: default;
 }
 
 .main-content-item-time {
@@ -311,6 +313,7 @@ body {
   line-height: 30px;
   color: #4F4E4F;
   margin-bottom: 18px;
+  cursor: default;
 }
 
 .main-content-item-icons {
