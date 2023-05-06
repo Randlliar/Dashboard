@@ -178,7 +178,7 @@ body {
 }
 
 .header-info-options {
-  display: block;
+  display: none;
   position: absolute;
   background: #FFFFFF;
   box-shadow: 0 4px 20px rgba(102, 102, 102, 0.15);
