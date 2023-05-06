@@ -178,15 +178,15 @@ body {
 }
 
 .header-info-options {
-  display: none;
+  display: block;
   position: absolute;
   background: #FFFFFF;
   box-shadow: 0 4px 20px rgba(102, 102, 102, 0.15);
   border-radius: 10px;
   box-sizing: border-box;
-  padding: 30px 30px 15px 20px;
+  padding: 30px 20px 15px 20px;
   top: 40px;
-  left: 230px;
+  left: 200px;
   width: 150px;
 }
 
