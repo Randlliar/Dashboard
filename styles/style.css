@@ -72,18 +72,15 @@ body {
 .navigation-item.selected a, .navigation-item a:hover {
   background: #467DF2;
   color: #FFFFFF;
-  transition: all 0.3s linear;
-
 }
 
 .navigation-item svg {
   fill: #858796;
+  transition: all 0.3s linear;
 }
 
 .navigation-item:hover svg {
   fill: #FFFFFF;
-  transition: all 0.3s linear;
-
 }
 
 .sidebar-bottom {
@@ -92,6 +89,11 @@ body {
   padding: 12px;
   bottom: 0;
   max-width: 215px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .sidebar-bottom svg {
@@ -112,11 +114,6 @@ body {
 
 .sidebar-bottom:hover {
   border: 1px solid #467DF2;
-  border-radius: 5px;
-  box-sizing: border-box;
-  transition: all 0.3s linear;
-  cursor: default;
-
 }
 
 .layout-main {
@@ -143,12 +140,12 @@ body {
 .header-info a {
   text-decoration: none;
   color: #858796;
+  transition: all 0.3s linear;
+
 }
 
 .header-info-item:hover a {
   color: #3D63D2;
-  transition: all 0.3s linear;
-
 }
 
 .header-info-item {
@@ -169,12 +166,14 @@ body {
 .header-info svg {
   display: flex;
   fill: #858796;
+  transition: all 0.3s linear;
+  cursor: pointer;
+
+
 }
 
 .header-info-item:hover svg {
   fill: #3D63D2;
-  transition: all 0.3s linear;
-  cursor: pointer;
 }
 
 .header-info-options {
@@ -227,12 +226,12 @@ body {
 .header-search svg {
   margin-right: 40px;
   fill: #858796;
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 
 .header-search svg:hover {
   fill: #467DF2;
-  cursor: pointer;
-  transition: all 0.3s linear;
 }
 
 .button {
@@ -245,11 +244,11 @@ body {
 .button.header-button {
   padding: 11px 18px 10px 18px;
   border-radius: 10px;
+  transition: all 0.3s linear;
 }
 
 .header-search .button:hover {
   background: #2F54A3;
-  transition: all 0.3s linear;
 }
 
 .main-content {
@@ -283,11 +282,11 @@ body {
   background-color: #FFFFFF;
   border-radius: 10px;
   position: relative;
+  transition: all 0.3s linear;
 }
 
 .main-content-item:hover {
   box-shadow: 0 4px 20px rgba(102, 102, 102, 0.15);
-  transition: all 0.3s linear;
 }
 
 .main-content-item-container {
@@ -325,12 +324,12 @@ body {
 
 .main-content-item-icons svg {
   fill: #858796;
+  transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 .main-content-item-icons svg:hover {
   fill: #467DF2;
-  cursor: pointer;
-  transition: all 0.3s linear;
 }
 
 .main-content-item-icons svg {
@@ -348,12 +347,12 @@ body {
   right: -80px;
   top: 50%;
   border-radius: 10px 10px 0 0;
+  transition: all 0.3s linear;
 }
 
 .button.vertical-button:hover {
   background: #2F54A3;
   right: -70px;
-  transition: all 0.3s linear;
 }
 
 .button.vertical-button svg {
